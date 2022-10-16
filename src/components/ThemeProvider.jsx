@@ -23,4 +23,4 @@ const useThemeHook =()=>{
     return [theme]
 }
 
-export default ThemeProvider;
+export default {ThemeProvider , useThemeHook , ThemeContext};
